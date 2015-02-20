@@ -1,0 +1,63 @@
+//@import "compass/css3";
+
+.sgrid, .sgrid > *, .sgrid > *:after, .sgrid > *:before{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+	
+.sgrid [class*='col-']{
+	float:left;
+	width:100%;
+	position:relative;
+	min-height:1px;
+}
+
+.sgrid{
+	width:100%;
+	max-width:100%;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+	clear:both;
+	float:none;	
+		
+		.show-md, .show-sm, .show-xs, .show-md, .show-sm, .show-xs{
+			display:none;
+			height:0;
+		}
+		
+		.hide-md, .hide-sm, .hide-xs{
+			display:block;
+		}
+		
+		.left{
+			float:left;
+		}
+		
+		.right{
+			float:right;
+		}
+		
+		/*clear class*/
+		.sgrid-clear{
+			clear:both;
+			float:none;
+		}
+			
+		/*If column is empty, quite not needed*/
+		.col-blank{
+			min-height:1px;
+		}
+}
+
+.sgrid:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+@import "_md";
+@import "_sm";
+@import "_xs";
+@import "_tbl";

@@ -1,0 +1,162 @@
+@media handheld, only screen and (max-width: 768px){
+
+	.sgrid{
+
+		max-width:100%;
+	
+			.col-sm-1-1{
+				width:100%;
+			}
+			
+			.col-sm-2-3,.col-sm-8-12{
+				width:66.6667%;
+			}
+			
+			.col-sm-1-2,.col-sm-6-12{
+				width:50%;
+			}
+			
+			.col-sm-1-3,.col-sm-4-12{
+				width:33.3334%;
+			}
+			
+			.col-sm-1-4,.col-sm-3-12{
+				width:25%;
+			}
+			
+			.col-sm-1-5{
+				width:20%;
+			}
+			
+			.col-sm-1-6,.col-sm-2-12{
+				width:16.6667%;
+			}
+			
+			.col-sm-1-7{
+				width:14.28%;
+			}
+			
+			.col-sm-1-8{
+				width:12.5%;
+			}	
+			
+			.col-sm-1-9{
+				width:11.1%;
+			}
+			
+			.col-sm-1-10{
+				width:10%;
+			}
+			
+			
+			.col-sm-1-11{
+				width:9.09%;
+			}
+			
+			.col-sm-1-12{
+				width:8.3334%;
+			}
+			
+			.col-sm-11-12{
+				width:91.6667%;
+			}
+			
+			.col-sm-10-12{
+				width:83.3334%;
+			}
+			
+			.col-sm-9-12{
+				width:75%;
+			}
+			
+			.col-sm-5-12{
+				width:41.6667%;
+			}
+			
+			.col-sm-7-12{
+				width:58.3334%;
+			}
+			
+			/*offsets*/			
+			.off-sm-1-12{
+				margin-left:8.3334%;
+			}
+					
+			.off-sm-2-12{
+				margin-left:16.6667%;
+			}
+			
+			.off-sm-3-12{
+				margin-left:25%;
+			}		
+			
+			.off-sm-4-12{
+				margin-left:33.3334%;
+			}
+			
+			.off-sm-5-12{
+				margin-left:41.6667%;
+			}
+			
+			.off-sm-6-12{
+				margin-left:50%;
+			}
+			
+			.off-sm-7-12{
+				margin-left:58.3334%;
+			}
+			
+			.off-sm-8-12{
+				margin-left:66.6667%;
+			}		
+			
+			.off-sm-9-12{
+				margin-left:75%;
+			}
+			
+			.off-sm-10-12{
+				width:83.3334%;
+			}	
+					
+			.off-sm-11-12{
+				width:91.6667%;
+			}
+			
+			.off-sm{
+				margin-left:0;
+			}
+			/*/offsets*/
+			
+			.show-md{
+				display:none;
+				height:0;
+			}
+			
+			.show-sm{
+				display:block;
+				height:auto;
+			}
+			
+			.hide-sm{
+				display:none;
+				height:0;
+			}
+			
+			.left-xs, .left-md,
+			.right-xs, .right-md{
+				float:none;
+			}
+			
+			.left-sm{
+				float:left;
+			}
+
+			.center-sm{
+				margin: inherit auto inherit auto;
+			}	
+					
+			.right-sm{
+				float:right;
+			}
+	}
+}
