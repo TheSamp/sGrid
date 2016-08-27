@@ -1,5 +1,3 @@
-//@import "compass/css3";
-
 .sgrid, .sgrid > *, .sgrid > *:after, .sgrid > *:before{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -22,12 +20,12 @@
 	clear:both;
 	float:none;	
 		
-		.show-md, .show-sm, .show-xs, .show-md, .show-sm, .show-xs{
+		.show-lg, .show-md, .show-sm, .show-xs{
 			display:none;
 			height:0;
 		}
 		
-		.hide-md, .hide-sm, .hide-xs{
+		.hide-lg, .hide-md, .hide-sm, .hide-xs{
 			display:block;
 		}
 		
@@ -57,7 +55,8 @@
 	clear:both;
 }
 
-@import "_md";
+@import "_md";//Default size first!
+@import "_lg";
 @import "_sm";
 @import "_xs";
 @import "_tbl";

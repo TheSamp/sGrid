@@ -125,13 +125,13 @@
 				margin-left:0;
 			}
 			/*/offsets*/
-			
-			.show-sm{
+
+			.show-sm, .show-md, .show-lg{
 				display:none;
 				height:0;
 			}
 			
-			.hide-sm{
+			.hide-sm, .hide-md, .hide-lg{
 				display:block;
 				height:auto;
 			}
@@ -146,8 +146,8 @@
 				height:0;
 			}
 			
-			.left-sm, .left-md,
-			.right-sm, .right-md{		
+			.left-sm, .left-md, .left-lg
+			.right-sm, .right-md, .right-lg{
 				float:none;
 			}	
 		

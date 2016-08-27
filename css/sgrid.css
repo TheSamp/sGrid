@@ -19,10 +19,10 @@
   float: none;
   /*clear class*/
   /*If column is empty, quite not needed*/ }
-  .sgrid .show-md, .sgrid .show-sm, .sgrid .show-xs, .sgrid .show-md, .sgrid .show-sm, .sgrid .show-xs {
+  .sgrid .show-lg, .sgrid .show-md, .sgrid .show-sm, .sgrid .show-xs {
     display: none;
     height: 0; }
-  .sgrid .hide-md, .sgrid .hide-sm, .sgrid .hide-xs {
+  .sgrid .hide-lg, .sgrid .hide-md, .sgrid .hide-sm, .sgrid .hide-xs {
     display: block; }
   .sgrid .left {
     float: left; }
@@ -111,14 +111,101 @@
   .sgrid .hide-md {
     display: none;
     height: 0; }
-  .sgrid .left-xs, .sgrid .left-sm,
-  .sgrid .right-xs, .sgrid .right-sm {
+  .sgrid .left-xs, .sgrid .left-sm, .sgrid .left-lg
+  .right-xs, .sgrid .right-sm, .sgrid .right-lg {
     float: none; }
   .sgrid .left-md {
     float: left; }
   .sgrid .center-md {
     margin: inherit auto inherit auto; }
   .sgrid .right-md {
+    float: right; } }
+@media handheld, only screen and (min-width: 1200px) {
+  .sgrid {
+    /*offsets*/
+    /*Clears offset*/
+    /*/offsets*/ }
+    .sgrid .col-lg-1-1 {
+      width: 100%; }
+    .sgrid .col-lg-2-3, .sgrid .col-lg-8-12 {
+      width: 66.6667%; }
+    .sgrid .col-lg-1-2, .sgrid .col-lg-6-12 {
+      width: 50%; }
+    .sgrid .col-lg-1-3, .sgrid .col-lg-4-12 {
+      width: 33.3334%; }
+    .sgrid .col-lg-1-4, .sgrid .col-lg-3-12 {
+      width: 25%; }
+    .sgrid .col-lg-1-5 {
+      width: 20%; }
+    .sgrid .col-lg-1-6, .sgrid .col-lg-2-12 {
+      width: 16.6667%; }
+    .sgrid .col-lg-1-7 {
+      width: 14.28%; }
+    .sgrid .col-lg-1-8 {
+      width: 12.5%; }
+    .sgrid .col-lg-1-9 {
+      width: 11.1%; }
+    .sgrid .col-lg-1-10 {
+      width: 10%; }
+    .sgrid .col-lg-1-11 {
+      width: 9.09%; }
+    .sgrid .col-lg-1-12 {
+      width: 8.3334%; }
+    .sgrid .col-lg-11-12 {
+      width: 91.6667%; }
+    .sgrid .col-lg-10-12 {
+      width: 83.3334%; }
+    .sgrid .col-lg-9-12 {
+      width: 75%; }
+    .sgrid .col-lg-5-12 {
+      width: 41.6667%; }
+    .sgrid .col-lg-7-12 {
+      width: 58.3334%; }
+    .sgrid .off-lg-1-12 {
+      margin-left: 8.3334%; }
+    .sgrid .off-lg-2-12 {
+      margin-left: 16.6667%; }
+    .sgrid .off-lg-3-12 {
+      margin-left: 25%; }
+    .sgrid .off-lg-4-12 {
+      margin-left: 33.3334%; }
+    .sgrid .off-lg-5-12 {
+      margin-left: 41.6667%; }
+    .sgrid .off-lg-6-12 {
+      margin-left: 50%; }
+    .sgrid .off-lg-7-12 {
+      margin-left: 58.3334%; }
+    .sgrid .off-lg-8-12 {
+      margin-left: 66.6667%; }
+    .sgrid .off-lg-9-12 {
+      margin-left: 75%; }
+    .sgrid .off-lg-10-12 {
+      width: 83.3334%; }
+    .sgrid .off-lg-11-12 {
+      width: 91.6667%; }
+    .sgrid .off-lg {
+      margin-left: 0; }
+
+  .sgrid .show-lg {
+    display: block;
+    height: auto; }
+  .sgrid .hide-lg {
+    display: none;
+    height: 0; }
+  .sgrid .show-md {
+    display: none;
+    height: 0; }
+  .sgrid .hide-md {
+    display: block;
+    height: auto; }
+  .sgrid .left-xs, .sgrid .left-sm, .sgrid .left-md,
+  .sgrid .right-xs, .sgrid .right-sm, .sgrid .right-md {
+    float: none; }
+  .sgrid .left-lg {
+    float: left; }
+  .sgrid .center-lg {
+    margin: inherit auto inherit auto; }
+  .sgrid .right-lg {
     float: right; } }
 @media handheld, only screen and (max-width: 768px) {
   .sgrid {
@@ -194,8 +281,8 @@
     .sgrid .hide-sm {
       display: none;
       height: 0; }
-    .sgrid .left-xs, .sgrid .left-md,
-    .sgrid .right-xs, .sgrid .right-md {
+    .sgrid .left-xs, .sgrid .left-md, .sgrid .left-lg
+    .right-xs, .sgrid .right-md, .sgrid .right-lg {
       float: none; }
     .sgrid .left-sm {
       float: left; }
@@ -268,10 +355,10 @@
       width: 91.6667%; }
     .sgrid .off-xs {
       margin-left: 0; }
-    .sgrid .show-sm {
+    .sgrid .show-sm, .sgrid .show-md, .sgrid .show-lg {
       display: none;
       height: 0; }
-    .sgrid .hide-sm {
+    .sgrid .hide-sm, .sgrid .hide-md, .sgrid .hide-lg {
       display: block;
       height: auto; }
     .sgrid .show-xs {
@@ -280,8 +367,8 @@
     .sgrid .hide-xs {
       display: none;
       height: 0; }
-    .sgrid .left-sm, .sgrid .left-md,
-    .sgrid .right-sm, .sgrid .right-md {
+    .sgrid .left-sm, .sgrid .left-md, .sgrid .left-lg
+    .right-sm, .sgrid .right-md, .sgrid .right-lg {
       float: none; }
     .sgrid .left-xs {
       float: left; }
@@ -345,3 +432,5 @@
   .sgrid.sgrid-tbl .tbl-head .hide-xs, .sgrid.sgrid-tbl .tbl-row .hide-xs, .sgrid.sgrid-tbl .tbl-foot .hide-xs {
     display: none;
     height: 0; } }
+
+/*# sourceMappingURL=sgrid.css.map */
