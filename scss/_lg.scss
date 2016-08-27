@@ -128,15 +128,6 @@
 	}
 
 	.sgrid{
-		.show-lg{
-			display:block;
-			height:auto;
-		}
-		
-		.hide-lg{
-			display:none;
-			height:0;
-		}
 
 		.show-md{
 			display:none;
@@ -152,7 +143,17 @@
 		.right-xs, .right-sm, .right-md{
 			float:none;
 		}
-		
+
+		.show-lg{
+			display:block;
+			height:auto;
+		}
+
+		.hide-lg{
+			display:none;
+			height:0;
+		}
+
 		.left-lg{
 			float:left;
 		}

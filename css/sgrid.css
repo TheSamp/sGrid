@@ -186,12 +186,6 @@
     .sgrid .off-lg {
       margin-left: 0; }
 
-  .sgrid .show-lg {
-    display: block;
-    height: auto; }
-  .sgrid .hide-lg {
-    display: none;
-    height: 0; }
   .sgrid .show-md {
     display: none;
     height: 0; }
@@ -201,6 +195,12 @@
   .sgrid .left-xs, .sgrid .left-sm, .sgrid .left-md,
   .sgrid .right-xs, .sgrid .right-sm, .sgrid .right-md {
     float: none; }
+  .sgrid .show-lg {
+    display: block;
+    height: auto; }
+  .sgrid .hide-lg {
+    display: none;
+    height: 0; }
   .sgrid .left-lg {
     float: left; }
   .sgrid .center-lg {
